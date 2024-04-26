@@ -12,11 +12,18 @@ int main() {
     printf("%d + %d = %d", number1, number2, sum);
     return 0;
 }
+<<<<<<<<<HEAD
+int addfunc(int a, int b)
+{
+	int c = a+b;
+	return c;
+=======	
 //function added in branch1
-int func_add(int a, int c)
+int func_add(int a, int b)
 {
 	// i am in main branch
 	// i am making this changes in 
 	// one more change 
-	return a+c;
+	return a+b;
+>>>>>>> branch1	
 }
